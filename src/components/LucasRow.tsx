@@ -141,7 +141,7 @@ function FeatureRow() {
           src="/Lucas.webp"
           alt="Lucas, the cat!"
           draggable={false}
-          className="h-full w-full rounded-md object-cover select-none"
+          className="h-full w-auto rounded-md object-cover select-none"
         />
       </Card>
     </section>

@@ -24,17 +24,17 @@ function Navbar() {
         items-stretch
         shadow-[0px_8px_0px_rgba(0,0,0,0.25)]"
     >
-      <NavLink
-        to="/"
-        className={tabClass}
-      >
+      <NavLink to="/" className={tabClass}>
         Home
       </NavLink>
-      
-        <NavLink to="/about" className={tabClass}>
-          About
-        </NavLink>
-      
+
+      <NavLink to="/about" className={tabClass}>
+        About
+      </NavLink>
+
+      <NavLink to="/work" className={tabClass}>
+        Work
+      </NavLink>
     </nav>
   );
 }
