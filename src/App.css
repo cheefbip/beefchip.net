@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-roboto: "Roboto", sans-serif; 
+  --font-roboto-mono: "Roboto Mono", sans-serif; 
+}#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+body{
+  background-color: rgb(24, 24, 24);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+
+/* Row Numbering */
+
+.numbered-rows {
+  counter-reset: row;
+}
+
+.numbered-row {
+  counter-increment: row;
+  display: flex;
+  align-items: center;
+}
+
+.numbered-row::before {
+  content: counter(line);
+  width: 1rem;
+  flex-shrink: 0;
+  text-align: right;
+  margin-right: 1rem;
+}
+.numbered-row::before {
+  content: counter(row);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.typewriter-cursor {
+  animation: blink 0.5s step-end infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
