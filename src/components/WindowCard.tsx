@@ -52,31 +52,29 @@ function WindowCard({ children, title, className = "", delay = 0 }: WindowCardPr
 						<span className="
 							rounded-full
 							inline-block
+							bg-green-400
+							ml-2
 							w-4 h-4
-							bg-yellow-300
-							border border-yellow-100
-							shadow-[0_0_6px_rgba(253,224,71,0.35)]
-							hover:shadow-[0_0_12px_rgba(253,224,71,0.8)]
-							transition-all
+							border-green-200
+							border-1
 						" />
 						<span className="
 							rounded-full
 							inline-block
-							bg-cyan-400
+							bg-yellow-400
 							ml-2
-							w-4
-							h-4
-							border-cyan-300
+							w-4 h-4
 							border-1
+							border-yellow-200
+							transition-all
 						" />
 						<span className="
 							rounded-full
 							inline-block
 							bg-red-400
 							ml-2
-							w-4
-							h-4
-							border-red-300
+							w-4 h-4
+							border-red-200
 							border-1
 						" />
 					</span>

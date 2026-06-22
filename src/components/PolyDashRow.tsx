@@ -48,7 +48,7 @@ function PolyDashRow() {
 					<div className="numbered-row" />
 					
 					<p className="numbered-row text-md font-small text-zinc-400">
-						<span># play by yourself or with friends!</span>
+						<span># in-game leaderboards to compare your scores against friends!</span>
 					</p>
 					
 					<div className="numbered-row" />
