@@ -42,7 +42,6 @@ function About() {
                     <div className="numbered-row text-md font-small text-lime-300">
                         <span>
                             feel free to check out my work or contact me for inquiries!
-                            (contact and portfolio coming soon)
                         </span>
                     </div>
 
